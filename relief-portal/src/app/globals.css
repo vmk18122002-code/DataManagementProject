@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/*
+  THEME - change the brand colours here only.
+  Layout follows the admin design in ../UI (white sidebar, light grey canvas, white cards),
+  re-themed from purple to a relief teal. Red is reserved for Disaster Mode.
+*/
+@theme {
+  --color-brand-50: #eefaf7;
+  --color-brand-100: #d5f2ec;
+  --color-brand-200: #a9e3d8;
+  --color-brand-300: #72cdbd;
+  --color-brand-500: #169c86;
+  --color-brand-600: #0e806e;
+  --color-brand-700: #0c675a;
+  --color-brand-800: #0b5249;
+
+  --color-canvas: #f3f4f6;
+  --color-ink: #1f2937;
+  --color-ink-soft: #4b5563;
+  --color-ink-muted: #6b7280;
+  --color-line: #e5e7eb;
+
+  --color-danger-50: #fef2f2;
+  --color-danger-100: #fee2e2;
+  --color-danger-600: #dc2626;
+  --color-danger-700: #b91c1c;
+
+  --font-sans: var(--font-rubik), ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+/* thin scrollbars inside tables / side panels */
+.scroll-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+}

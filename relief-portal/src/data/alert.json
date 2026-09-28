@@ -1,0 +1,162 @@
+[
+ {
+  "district": "Ampara",
+  "ds": "Pothuvil",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 1922,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Akkaraipattu",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 1785,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Alaiyadivembu",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 1657,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Thirukkovil",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 1441,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Karathivu",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 970,
+  "level": "High"
+ },
+ {
+  "district": "Trincomalee",
+  "ds": "Kinniya",
+  "hazard": "Flood",
+  "start": "2024-11-25",
+  "predicted": 884,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Ninthavur",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 828,
+  "level": "High"
+ },
+ {
+  "district": "Mullaitivu",
+  "ds": "Maritime Pattu",
+  "hazard": "Flood",
+  "start": "2024-11-24",
+  "predicted": 805,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Sainthamaruthu",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 739,
+  "level": "High"
+ },
+ {
+  "district": "Mullaitivu",
+  "ds": "Oddusuddan",
+  "hazard": "Flood",
+  "start": "2024-11-25",
+  "predicted": 717,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Addalachchenai",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 692,
+  "level": "High"
+ },
+ {
+  "district": "Mullaitivu",
+  "ds": "Puthukkudiyiruppu",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 682,
+  "level": "High"
+ },
+ {
+  "district": "Vavuniya",
+  "ds": "Vavuniya",
+  "hazard": "Flood",
+  "start": "2024-11-27",
+  "predicted": 646,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Kalmunai",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 641,
+  "level": "High"
+ },
+ {
+  "district": "Trincomalee",
+  "ds": "Kuchchaveli",
+  "hazard": "Flood",
+  "start": "2024-11-25",
+  "predicted": 582,
+  "level": "High"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Samanthurai",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 577,
+  "level": "High"
+ },
+ {
+  "district": "Trincomalee",
+  "ds": "Verugal",
+  "hazard": "Flood",
+  "start": "2024-11-25",
+  "predicted": 500,
+  "level": "Medium"
+ },
+ {
+  "district": "Trincomalee",
+  "ds": "Muthur",
+  "hazard": "Flood",
+  "start": "2024-11-24",
+  "predicted": 489,
+  "level": "Medium"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Kalmunai North",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 486,
+  "level": "Medium"
+ },
+ {
+  "district": "Ampara",
+  "ds": "Lahugala",
+  "hazard": "Flood",
+  "start": "2024-11-26",
+  "predicted": 457,
+  "level": "Medium"
+ }
+]

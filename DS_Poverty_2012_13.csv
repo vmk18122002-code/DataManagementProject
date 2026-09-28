@@ -1,0 +1,332 @@
+Serial,DS Division,District,HCI_2012_13,Poor_people
+1,Colombo,Colombo,3.97,12378
+2,Kolonnawa,Colombo,2.92,5455
+3,Kaduwela,Colombo,1.93,4733
+4,Homagama,Colombo,2.75,6335
+5,Seethawake,Colombo,5.21,5740
+6,Padukka,Colombo,4.53,2893
+7,Maharagama,Colombo,1.09,2035
+8,Sri Jayawardanapura Kotte,Colombo,1.2,1224
+9,Thimbirigasyaya,Colombo,1.29,2766
+10,Dehiwala,Colombo,0.62,533
+11,Rathmalana,Colombo,1.57,1439
+12,Moratuwa,Colombo,3.68,5979
+13,Kesbewa,Colombo,1.85,4390
+14,Negombo,Gampaha,1.66,2305
+15,Katana,Gampaha,4.07,9288
+16,Divulapitiya,Gampaha,6.09,8649
+17,Mirigama,Gampaha,6.0,9591
+18,Minuwangoda,Gampaha,4.85,8508
+19,Wattala,Gampaha,2.68,4567
+20,Ja-Ela,Gampaha,3.08,6072
+21,Gampaha,Gampaha,2.86,5562
+22,Attanagalla,Gampaha,4.63,8085
+23,Dompe,Gampaha,5.51,8321
+24,Mahara,Gampaha,3.7,7507
+25,Kelaniya,Gampaha,2.16,2822
+26,Biyagama,Gampaha,3.33,6068
+27,Panadura,Kalutara,2.88,5155
+28,Bandaragama,Kalutara,3.98,4273
+29,Horana,Kalutara,3.95,4391
+30,Ingiriya,Kalutara,5.45,2876
+31,Bulathsinhala,Kalutara,6.96,4434
+32,Madurawala,Kalutara,4.41,1495
+33,Millaniya,Kalutara,5.8,2981
+34,Kaluthara,Kalutara,4.2,6499
+35,Beruwala,Kalutara,6.7,10856
+36,Dodangoda,Kalutara,5.88,3704
+37,Mathugama,Kalutara,6.41,5123
+38,Agalawatta,Kalutara,5.51,1974
+39,Palindanuwara,Kalutara,8.4,4207
+40,Walallawita,Kalutara,6.42,3430
+41,Thumpane,Kandy,5.34,1953
+42,Poojapitiya,Kandy,7.44,4183
+43,Akurana,Kandy,16.8,10451
+44,Pathadumbara,Kandy,6.37,5534
+45,Panwila,Kandy,10.4,2702
+46,Udadumbara,Kandy,8.61,1878
+47,Minipe,Kandy,8.76,4428
+48,Medadumbara,Kandy,9.28,5555
+49,Kundasale,Kandy,5.99,7279
+50,Kandy Four Gravets and Gangawata Korale,Kandy,4.17,6118
+51,Harispattuwa,Kandy,5.13,4421
+52,Hatharaliyadda,Kandy,6.53,1889
+53,Yatinuwara,Kandy,5.53,5731
+54,Udunuwara,Kandy,6.9,7394
+55,Doluwa,Kandy,8.47,4158
+56,Pathahewaheta,Kandy,7.78,4406
+57,Delthota,Kandy,11.03,3281
+58,Udapalatha,Kandy,7.98,7223
+59,Ganga Ihala Korale,Kandy,7.9,4286
+60,Pasbage Korale,Kandy,7.81,4605
+61,Galewela,Matale,7.76,5304
+62,Dambulla,Matale,7.11,4890
+63,Naula,Matale,7.67,2298
+64,Pallepola,Matale,6.83,1943
+65,Yatawatta,Matale,8.19,2413
+66,Matale,Matale,5.71,4176
+67,Ambanganga Korale,Matale,10.67,1643
+68,Laggala-Pallegama,Matale,9.59,1128
+69,Wilgamuwa,Matale,10.38,2978
+70,Rattota,Matale,8.46,4261
+71,Ukuwela,Matale,8.62,5740
+72,Kothmale,Nuwara Eliya,9.85,9813
+73,Hanguranketha,Nuwara Eliya,11.9,10252
+74,Walapane,Nuwara Eliya,10.92,11162
+75,Nuwara Eliya,Nuwara Eliya,6.13,12843
+76,Ambagamuwa,Nuwara Eliya,6.8,13890
+77,Bentota,Galle,9.28,4519
+78,Balapitiya,Galle,8.7,5736
+79,Karandeniya,Galle,10.06,6183
+80,Elpitiya,Galle,8.64,5444
+81,Niyagama,Galle,9.86,3422
+82,Thawalama,Galle,11.87,3801
+83,Neluwa,Galle,11.3,3168
+84,Nagoda,Galle,9.6,5071
+85,Baddegama,Galle,8.99,6590
+86,Welivitiya-Divithura,Galle,10.25,2941
+87,Ambalangoda,Galle,6.3,3528
+88,Gonapeenuwala,Galle,7.71,1638
+89,Hikkaduwa,Galle,7.9,7798
+90,Galle Four Gravets,Galle,5.74,5639
+91,Bope-Poddala,Galle,6.55,3174
+92,Akmeemana,Galle,8.83,6727
+93,Yakkalamulla,Galle,11.37,5148
+94,Imaduwa,Galle,10.31,4550
+95,Habaraduwa,Galle,9.01,5450
+96,Pitabeddara,Matara,11.38,5741
+97,Kotapola,Matara,11.7,7290
+98,Pasgoda,Matara,11.43,6680
+99,Mulatiyana,Matara,10.29,5088
+100,Athuraliya,Matara,11.41,3589
+101,Akuressa,Matara,10.72,5579
+102,Welipitiya,Matara,11.92,6114
+103,Malimbada,Matara,8.18,2804
+104,Kamburupitiya,Matara,9.23,3667
+105,Hakmana,Matara,10.63,3290
+106,Kirinda Puhulwella,Matara,9.17,1823
+107,Thihagoda,Matara,9.22,3026
+108,Weligama,Matara,8.3,5913
+109,Matara Four Gravets,Matara,3.8,4237
+110,Devinuwara,Matara,8.03,3806
+111,Dickwella,Matara,8.52,4575
+112,Sooriyawewa,Hambantota,8.13,3429
+113,Lunugamvehera,Hambantota,6.82,2086
+114,Tissamaharama,Hambantota,5.03,3347
+115,Hambantota,Hambantota,5.35,2991
+116,Ambalantota,Hambantota,5.31,3775
+117,Angunukolapelessa,Hambantota,6.01,2860
+118,Weeraketiya,Hambantota,5.82,2371
+119,Katuwana,Hambantota,7.2,3296
+120,Walasmulla,Hambantota,6.49,2695
+121,Okewela,Hambantota,6.69,1243
+122,Beliatta,Hambantota,4.97,2726
+123,Tangalle,Hambantota,3.71,2627
+124,Island North (Kayts),Jaffna,15.25,1476
+125,Karainagar,Jaffna,14.42,1379
+126,Valikamam West (Chankanai),Jaffna,14.63,6751
+127,Valikamam South -West (Sandilipay),Jaffna,12.44,6436
+128,Valikamam North,Jaffna,13.45,3895
+129,Valikamam South (Uduvil),Jaffna,11.85,6203
+130,Valikamam East (Kopay),Jaffna,13.18,9528
+131,Vadamarachchi South-west (Karaveddy ),Jaffna,12.35,5635
+132,Vadamarachchi East,Jaffna,16.37,2077
+133,Vadamarachchi North (Pointpedro),Jaffna,9.13,4317
+134,Thenmarachchi (Chavakachcheri),Jaffna,11.51,7391
+135,Nallur,Jaffna,7.33,4914
+136,Jaffna,Jaffna,6.58,3234
+137,Island South (Velanai),Jaffna,16.75,2803
+138,Delft,Jaffna,13.47,508
+139,Mannar Town,Mannar,19.88,9801
+140,Manthai West,Mannar,26.9,3893
+141,Madhu,Mannar,22.0,1631
+142,Nanattan,Mannar,15.97,2766
+143,Musalai,Mannar,25.74,2064
+144,Vavuniya North,Vavuniya,10.74,1176
+145,Vavuniya South,Vavuniya,4.86,604
+146,Vavuniya,Vavuniya,5.41,6139
+147,Vengalacheddikulam,Vavuniya,9.45,2717
+148,Thunukkai,Mullaitivu,34.03,3244
+149,Manthai East,Mullaitivu,33.68,2336
+150,Puthukkudiyiruppu,Mullaitivu,35.66,8466
+151,Oddusuddan,Mullaitivu,33.49,4972
+152,Maritimepattu,Mullaitivu,28.61,8096
+153,Welioya,Mullaitivu,18.25,1249
+154,Pachchilaipalli,Kilinochchi,18.64,1541
+155,Kandavalai,Kilinochchi,21.13,4875
+156,Karachchi,Kilinochchi,20.36,12291
+157,Poonakary,Kilinochchi,22.73,4543
+158,Koralai Pattu North (Vaharai),Batticaloa,27.99,5950
+159,Koralai Pattu Central,Batticaloa,10.99,2761
+160,Koralai Pattu West (Oddamavadi),Batticaloa,7.73,1703
+161,Koralai Pattu (Valachchenai),Batticaloa,18.42,4244
+162,Koralai Pattu South (Kiran),Batticaloa,37.68,9811
+163,Eravur Pattu,Batticaloa,24.69,18242
+164,Eravur Town,Batticaloa,10.99,2664
+165,Manmunai North,Batticaloa,8.06,6705
+166,Manmunai West,Batticaloa,45.14,12776
+167,Kattankudy,Batticaloa,5.26,2101
+168,Manmunai Pattu (Araipattai),Batticaloa,13.98,4244
+169,Manmunai South-West,Batticaloa,28.93,7090
+170,Porativu Pattu,Batticaloa,25.84,9323
+171,Manmunai South & Eruvil Pattu,Batticaloa,13.94,8429
+172,Dehiattakandiya,Ampara,7.16,4174
+173,Padiyathalawa,Ampara,11.93,2082
+174,Mahaoya,Ampara,15.94,3146
+175,Uhana,Ampara,6.29,3546
+176,Ampara,Ampara,4.67,1940
+177,Navithanveli,Ampara,12.81,2389
+178,Sammanthurai,Ampara,12.49,7462
+179,Kalmunai Tamil Division,Ampara,6.99,2063
+180,Kalmunai,Ampara,4.14,1827
+181,Sainthamarathu,Ampara,3.16,800
+182,Karativu,Ampara,4.62,770
+183,Ninthavur,Ampara,5.03,1321
+184,Addalachchenai,Ampara,10.71,4315
+185,Irakkamam,Ampara,12.18,1749
+186,Akkaraipattu,Ampara,5.48,2143
+187,Alayadiwembu,Ampara,8.31,1857
+188,Damana,Ampara,7.55,2826
+189,Thirukkovil,Ampara,10.56,2659
+190,Pottuvil,Ampara,12.68,4379
+191,Lahugala,Ampara,6.73,584
+192,Padavi Sri Pura,Trincomalee,5.11,587
+193,Kuchchaveli,Trincomalee,8.88,2900
+194,Gomarankadawala,Trincomalee,6.1,424
+195,Morawewa,Trincomalee,7.47,568
+196,Trincomalee Town and Gravets,Trincomalee,4.72,4489
+197,Thambalagamuwa,Trincomalee,8.13,2276
+198,Kantale,Trincomalee,4.69,2120
+199,Kinniya,Trincomalee,15.89,10172
+200,Muttur,Trincomalee,9.42,5279
+201,Seruvila,Trincomalee,8.89,1179
+202,Verugal (Eachchilampattu),Trincomalee,14.34,1627
+203,Giribawa,Kurunegala,8.75,2661
+204,Galgamuwa,Kurunegala,8.37,4421
+205,Ehetuwewa,Kurunegala,8.08,2008
+206,Ambanpola,Kurunegala,8.0,1764
+207,Kotawehera,Kurunegala,8.76,1789
+208,Rasnayakapura,Kurunegala,10.0,2131
+209,Nikaweratiya,Kurunegala,7.4,2890
+210,Maho,Kurunegala,7.43,4103
+211,Polpithigama,Kurunegala,9.04,6638
+212,Ibbagamuwa,Kurunegala,7.25,6038
+213,Ganewatta,Kurunegala,7.36,2866
+214,Wariyapola,Kurunegala,6.53,3867
+215,Kobeigane,Kurunegala,7.78,2745
+216,Bingiriya,Kurunegala,8.68,5317
+217,Panduwasnuwara,Kurunegala,7.64,4776
+218,Katupotha,Kurunegala,7.09,2251
+219,Bamunukotuwa,Kurunegala,6.39,2266
+220,Maspotha,Kurunegala,4.7,1584
+221,Kurunegala,Kurunegala,4.33,3390
+222,Mallawapitiya,Kurunegala,5.66,2933
+223,Mawathagama,Kurunegala,6.05,3826
+224,Rideegama,Kurunegala,6.87,5944
+225,Weerambugedara,Kurunegala,5.76,1934
+226,Kuliyapitiya East,Kurunegala,8.22,4254
+227,Kuliyapitiya West,Kurunegala,5.89,4440
+228,Udubaddawa,Kurunegala,7.51,3856
+229,Pannala,Kurunegala,6.78,8257
+230,Narammala,Kurunegala,6.33,3486
+231,Alawwa,Kurunegala,6.83,4246
+232,Polgahawela,Kurunegala,5.87,3733
+233,Kalpitiya,Puttalam,8.28,6968
+234,Vanathavilluwa,Puttalam,8.85,1514
+235,Karuwalagaswewa,Puttalam,5.69,1295
+236,Nawagattegama,Puttalam,6.19,867
+237,Puttalam,Puttalam,5.78,4669
+238,Mandel,Puttalam,8.34,5043
+239,Mahakumbukkadawala,Puttalam,6.23,1138
+240,Anamaduwa,Puttalam,5.7,2116
+241,Pallama,Puttalam,6.94,1675
+242,Arachchikattuwa,Puttalam,6.22,2522
+243,Chilaw,Puttalam,5.2,3218
+244,Madampe,Puttalam,5.76,2712
+245,Mahawewa,Puttalam,5.58,2808
+246,Nattandiya,Puttalam,5.23,3193
+247,Wennappuwa,Puttalam,5.25,3515
+248,Dankotuwa,Puttalam,5.42,3331
+249,Padaviya,Anuradhapura,8.4,1848
+250,Kebithigollewa,Anuradhapura,10.2,2167
+251,Medawachchiya,Anuradhapura,8.08,3599
+252,Mahavillachchiya,Anuradhapura,9.79,2109
+253,Nuwaragam Palatha Central,Anuradhapura,6.19,3595
+254,Rambewa,Anuradhapura,8.56,3017
+255,Kahatagasdigiliya,Anuradhapura,8.97,3457
+256,Horowpothana,Anuradhapura,10.01,3536
+257,Galenbidunuwawa,Anuradhapura,6.66,2997
+258,Mihintale,Anuradhapura,5.68,1810
+259,Nuwaragam Palatha East,Anuradhapura,1.96,1290
+260,Nachchadoowa,Anuradhapura,6.1,1515
+261,Nochchiyagama,Anuradhapura,6.45,3089
+262,Rajanganaya,Anuradhapura,5.69,1860
+263,Thambuttegama,Anuradhapura,7.38,3042
+264,Thalawa,Anuradhapura,6.35,3546
+265,Thirappane,Anuradhapura,8.11,2105
+266,Kekirawa,Anuradhapura,5.98,3433
+267,Palugaswewa,Anuradhapura,8.08,1203
+268,Ipalogama,Anuradhapura,5.54,2072
+269,Galnewa,Anuradhapura,6.58,2215
+270,Palagala,Anuradhapura,7.58,2504
+271,Hingurakgoda,Polonnaruwa,4.26,2624
+272,Medirigiriya,Polonnaruwa,6.05,3839
+273,Lankapura,Polonnaruwa,5.13,1836
+274,Welikanda,Polonnaruwa,10.59,3432
+275,Dimbulagala,Polonnaruwa,7.26,5600
+276,Thamankaduwa,Polonnaruwa,3.69,2923
+277,Elahera,Polonnaruwa,6.21,2645
+278,Mahiyanganaya,Badulla,10.56,7765
+279,Rideemaliyadda,Badulla,14.73,7361
+280,Meegahakivula,Badulla,14.77,2826
+281,Kandaketiya,Badulla,13.19,2955
+282,Soranathota,Badulla,10.81,2355
+283,Passara,Badulla,10.67,5087
+284,Lunugala,Badulla,14.6,4519
+285,Badulla,Badulla,4.89,3507
+286,Hali Ela,Badulla,8.91,7915
+287,Uva Paranagama,Badulla,9.01,6868
+288,Welimada,Badulla,7.72,7598
+289,Bandarawela,Badulla,5.99,3810
+290,Ella,Badulla,9.94,4401
+291,Haputhale,Badulla,8.66,4121
+292,Haldummulla,Badulla,11.61,4276
+293,Bibila,Monaragala,20.67,8085
+294,Madulla,Monaragala,25.95,7830
+295,Medagama,Monaragala,23.66,8245
+296,Siyambalanduwa,Monaragala,28.7,15041
+297,Monaragala,Monaragala,19.56,9297
+298,Badalkumbura,Monaragala,19.13,7497
+299,Wellawaya,Monaragala,18.07,10584
+300,Buttala,Monaragala,18.55,9597
+301,Katharagama,Monaragala,18.55,3219
+302,Thanamalvila,Monaragala,21.33,5561
+303,Sewanagala,Monaragala,18.34,7573
+304,Eheliyagoda,Ratnapura,9.82,6859
+305,Kuruwita,Ratnapura,12.42,11642
+306,Kiriella,Ratnapura,9.16,2950
+307,Rathnapura,Ratnapura,10.14,11985
+308,Imbulpe,Ratnapura,9.36,5330
+309,Balangoda,Ratnapura,9.33,7481
+310,Opanayaka,Ratnapura,11.5,3027
+311,Pelmadulla,Ratnapura,12.16,10776
+312,Elapatha,Ratnapura,12.25,4603
+313,Ayagama,Ratnapura,11.97,3664
+314,Kalawana,Ratnapura,12.71,6432
+315,Nivithigala,Ratnapura,11.96,7116
+316,Kahawaththa,Ratnapura,13.18,5659
+317,Godakawela,Ratnapura,12.12,9128
+318,Weligepola,Ratnapura,11.22,3421
+319,Embilipitiya,Ratnapura,10.02,13290
+320,Kolonna,Ratnapura,13.15,5953
+321,Rambukkana,Kegalle,6.36,5127
+322,Mawanella,Kegalle,6.25,6810
+323,Aranayaka,Kegalle,7.1,4741
+324,Kegalle,Kegalle,6.62,5837
+325,Galigamuwa,Kegalle,7.44,5418
+326,Warakapola,Kegalle,7.32,8096
+327,Ruwanwella,Kegalle,8.17,5140
+328,Bulathkohupitiya,Kegalle,9.82,4548
+329,Yatiyanthota,Kegalle,11.12,6702
+330,Dehiovita,Kegalle,9.76,7814
+331,Deraniyagala,Kegalle,11.85,5341
