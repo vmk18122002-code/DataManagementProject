@@ -5,7 +5,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 1922,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -13,7 +14,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 1785,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -21,7 +23,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 1657,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -29,7 +32,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 1441,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -37,7 +41,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 970,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Trincomalee",
@@ -45,7 +50,8 @@
   "hazard": "Flood",
   "start": "2024-11-25",
   "predicted": 884,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -53,7 +59,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 828,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Mullaitivu",
@@ -61,7 +68,8 @@
   "hazard": "Flood",
   "start": "2024-11-24",
   "predicted": 805,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -69,7 +77,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 739,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Mullaitivu",
@@ -77,7 +86,8 @@
   "hazard": "Flood",
   "start": "2024-11-25",
   "predicted": 717,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -85,7 +95,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 692,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Mullaitivu",
@@ -93,7 +104,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 682,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Vavuniya",
@@ -101,7 +113,8 @@
   "hazard": "Flood",
   "start": "2024-11-27",
   "predicted": 646,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -109,7 +122,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 641,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Trincomalee",
@@ -117,7 +131,8 @@
   "hazard": "Flood",
   "start": "2024-11-25",
   "predicted": 582,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -125,7 +140,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 577,
-  "level": "High"
+  "level": "High",
+  "alreadyAffected": false
  },
  {
   "district": "Trincomalee",
@@ -133,7 +149,8 @@
   "hazard": "Flood",
   "start": "2024-11-25",
   "predicted": 500,
-  "level": "Medium"
+  "level": "Medium",
+  "alreadyAffected": false
  },
  {
   "district": "Trincomalee",
@@ -141,7 +158,8 @@
   "hazard": "Flood",
   "start": "2024-11-24",
   "predicted": 489,
-  "level": "Medium"
+  "level": "Medium",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -149,7 +167,8 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 486,
-  "level": "Medium"
+  "level": "Medium",
+  "alreadyAffected": false
  },
  {
   "district": "Ampara",
@@ -157,6 +176,7 @@
   "hazard": "Flood",
   "start": "2024-11-26",
   "predicted": 457,
-  "level": "Medium"
+  "level": "Medium",
+  "alreadyAffected": false
  }
 ]

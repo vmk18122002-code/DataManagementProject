@@ -67,7 +67,8 @@ export interface Suggestion {
 /*
   Coordinator agent (greedy priority allocation):
   candidates = High-need or disaster-affected areas with limit left,
-  ordered by priority tier, then distance to the donor, then need score.
+  ordered by priority tier, then predicted people affected (disaster areas), then distance to the
+  donor, then need score.
   Fill each area up to its remaining limit; when an area is full, move to the next one.
 */
 export function suggestAllocation(item: ItemKey, qty: number, donorDistrict: string, mode: Mode,
@@ -77,6 +78,7 @@ export function suggestAllocation(item: ItemKey, qty: number, donorDistrict: str
   );
   const tier = (r: NeedRow) => (r.affected ? RANK[r.affected.priority] : 3);
   rows.sort((a, b) => tier(a) - tier(b)
+    || (b.affected?.predicted ?? 0) - (a.affected?.predicted ?? 0)
     || distanceKm(donorDistrict, a.area.district) - distanceKm(donorDistrict, b.area.district)
     || b.score - a.score);
   const out: Suggestion[] = [];
@@ -86,7 +88,7 @@ export function suggestAllocation(item: ItemKey, qty: number, donorDistrict: str
     const give = Math.min(left, r.remaining);
     const km = distanceKm(donorDistrict, r.area.district);
     const reason = r.affected
-      ? `${r.affected.priority} disaster priority - ${r.affected.hazard.toLowerCase()} affected${r.affected.alreadyAffected ? ", hit again within 90 days" : ""}`
+      ? `${r.affected.priority} disaster priority - ${r.affected.hazard.toLowerCase()} affected${r.affected.alreadyAffected ? `, hit again (${r.affected.prevHazard?.toLowerCase()} ${r.affected.daysSincePrev} days earlier)` : ""}`
       : `High ${ITEMS[item].need === "living" ? "living" : "education"} need (score ${r.score.toFixed(0)}), ${km} km from donor`;
     out.push({ row: r, qty: give, km, reason: give < left ? `${reason}; limit reached, remainder moved to next area` : reason });
     left -= give;

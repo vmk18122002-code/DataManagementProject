@@ -64,18 +64,22 @@ export interface AffectedArea {
   start: string;
   predicted: number;
   level: "High" | "Medium";
+  // set by build_alert_history.py from the disaster records: an earlier disaster (>=100 people or
+  // >=10 houses) ended 7-90 days before this alert started
   alreadyAffected: boolean;
+  prevHazard?: string;
+  prevEnd?: string;
+  prevPeople?: number;
+  prevHouses?: number;
+  daysSincePrev?: number;
   priority: DisasterLevel;
 }
-// DS divisions hit by an earlier event in the last 90 days -> escalated to Critical
-const RECENTLY_HIT = new Set(["Kinniya", "Maritime Pattu", "Pothuvil"]);
-export const AFFECTED: AffectedArea[] = (alertRaw as Omit<AffectedArea, "alreadyAffected" | "priority">[]).map(
-  (a) => {
-    const alreadyAffected = RECENTLY_HIT.has(a.ds);
-    const priority: DisasterLevel = alreadyAffected ? "Critical" : a.level === "High" ? "High" : "Medium";
-    return { ...a, alreadyAffected, priority };
-  },
-);
+// already affected -> one level up (Medium -> High, High -> Critical), so size still counts
+export const AFFECTED: AffectedArea[] = (alertRaw as Omit<AffectedArea, "priority">[]).map((a) => {
+  const base: DisasterLevel = a.level === "High" ? "High" : "Medium";
+  const priority: DisasterLevel = !a.alreadyAffected ? base : base === "High" ? "Critical" : "High";
+  return { ...a, priority };
+});
 const SURGE: Record<DisasterLevel, number> = { Critical: 1.5, High: 1.2, Medium: 1.0 };
 const PER_PERSON: Record<ItemKey, number> = { food: 1 / 3.7, clothes: 0.5, books: 0.23 * 8 };
 
