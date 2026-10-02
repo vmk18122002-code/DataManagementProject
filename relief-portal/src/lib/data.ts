@@ -107,8 +107,8 @@ export const ALERTS: Alert[] = [
 ];
 
 // ---------------------------------------------------------------- donors, donations, collectors
-export type DonationStatus = "Submitted" | "Allocated" | "Collector assigned" | "Picked up" | "Delivered";
-export const STATUS_FLOW: DonationStatus[] = ["Submitted", "Allocated", "Collector assigned", "Picked up", "Delivered"];
+export type DonationStatus = "Submitted" | "Allocated" | "Collector assigned" | "Picked up" | "Delivered" | "Dispatched to area" | "Reached area";
+export const STATUS_FLOW: DonationStatus[] = ["Submitted", "Allocated", "Collector assigned", "Picked up", "Delivered", "Dispatched to area", "Reached area"];
 
 export interface Donation {
   id: string;
@@ -123,6 +123,18 @@ export interface Donation {
   date: string;
   status: DonationStatus;
   collector?: string;
+  proof?: {
+    photoUrl: string;   // base64 data URL of the delivery photo
+    note: string;       // collector's delivery note / voucher comment
+    time: string;       // ISO timestamp when proof was submitted
+    org: string;        // name of the collecting organisation
+  };
+  areaProof?: {
+    photoUrl: string;   // photo proof that items reached the target DS area
+    note: string;       // field agent confirmation note
+    time: string;       // ISO timestamp
+    by: string;         // name of field agent / org who confirmed
+  };
 }
 
 export const DONATIONS: Donation[] = [

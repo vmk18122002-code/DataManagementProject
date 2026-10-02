@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { CheckCircle2, PackageCheck } from "lucide-react";
 import { JobCard } from "@/components/JobCard";
@@ -14,12 +14,27 @@ export default function Pickups() {
 
   return (
     <>
-      <PageHeader title="Pickups" subtitle={`Donations to collect in ${CURRENT_COLLECTOR.district} district.`} />
+      <PageHeader
+        title="Pickups"
+        subtitle={`Collecting on behalf of ${CURRENT_COLLECTOR.org} - ${CURRENT_COLLECTOR.district} district. Pick up from donor, bring to your organisation store room.`}
+      />
+
       <h2 className="mb-3 font-semibold text-ink">Assigned to you ({mine.length})</h2>
       <div className="mb-8 space-y-3">
         {mine.map((d) => (
-          <JobCard key={d.id} d={d} from={d.address} to={`${d.targetDs}, ${d.targetDistrict}`}
-            action={<Button size="sm" onClick={() => updateDonation(d.id, { status: "Picked up" })}><PackageCheck size={16} />Mark picked up</Button>} />
+          <JobCard
+            key={d.id}
+            d={d}
+            org={CURRENT_COLLECTOR.org}
+            from={d.address}
+            to={`${CURRENT_COLLECTOR.org} Store Room - ${CURRENT_COLLECTOR.district}`}
+            toLabel="Organisation Store Room"
+            action={
+              <Button size="sm" onClick={() => updateDonation(d.id, { status: "Picked up" })}>
+                <PackageCheck size={16} /> Mark picked up
+              </Button>
+            }
+          />
         ))}
         {!mine.length && <Card><EmptyState text="No pickups assigned right now." /></Card>}
       </div>
@@ -27,8 +42,20 @@ export default function Pickups() {
       <h2 className="mb-3 font-semibold text-ink">Open jobs in your district ({open.length})</h2>
       <div className="space-y-3">
         {open.map((d) => (
-          <JobCard key={d.id} d={d} from={d.address} to={`${d.targetDs}, ${d.targetDistrict}`}
-            action={<Button size="sm" variant="secondary" onClick={() => updateDonation(d.id, { collector: me, status: "Collector assigned" })}><CheckCircle2 size={16} />Accept job</Button>} />
+          <JobCard
+            key={d.id}
+            d={d}
+            org={CURRENT_COLLECTOR.org}
+            from={d.address}
+            to={`${CURRENT_COLLECTOR.org} Store Room - ${CURRENT_COLLECTOR.district}`}
+            toLabel="Organisation Store Room"
+            action={
+              <Button size="sm" variant="secondary"
+                onClick={() => updateDonation(d.id, { collector: me, status: "Collector assigned" })}>
+                <CheckCircle2 size={16} /> Accept job
+              </Button>
+            }
+          />
         ))}
         {!open.length && <Card><EmptyState text="No open jobs in your district." /></Card>}
       </div>

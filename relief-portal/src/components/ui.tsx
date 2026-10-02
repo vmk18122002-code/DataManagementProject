@@ -89,7 +89,9 @@ export function LevelBadge({ level }: { level: string }) {
 
 export function StatusBadge({ status }: { status: string }) {
   const tone: Tone =
-    status === "Delivered" ? "green" : status === "Picked up" ? "blue" : status === "Collector assigned" ? "brand"
+    status === "Reached area" ? "green"
+    : status === "Dispatched to area" ? "blue"
+    : status === "Delivered" ? "green" : status === "Picked up" ? "blue" : status === "Collector assigned" ? "brand"
       : status === "Allocated" ? "amber" : status === "Confirmed" ? "red" : status === "Dismissed" ? "gray" : "gray";
   return <Badge tone={tone}>{status}</Badge>;
 }
